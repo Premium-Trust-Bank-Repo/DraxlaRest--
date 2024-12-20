@@ -1,0 +1,55 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 16
+VisualStudioVersion = 16.0.31105.61
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "DraxlaRest", "DraxlaRest.csproj", "{FC03C792-1E66-473C-8C55-19764AF0E7ED}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Domain", "..\Domain\Domain.csproj", "{0BC2BA33-C89D-46AA-9785-58BCDAB1AF35}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Mapping", "..\Mapping\Mapping.csproj", "{F57627CA-CE8B-462F-9F13-06E11282E098}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "VacmanBoundContext", "..\VacmanBoundContext\VacmanBoundContext.csproj", "{D63A6571-C4C4-4A4C-BB5F-383C8E413199}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "VacmanBoundRepo", "..\VacmanBoundRepo\VacmanBoundRepo.csproj", "{50012D32-228C-46DC-897A-D5AAB192B462}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "DataAccessLayer", "..\DataAccessLayer\DataAccessLayer.csproj", "{D4045E68-942E-45EE-9839-440E919FCE8D}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{FC03C792-1E66-473C-8C55-19764AF0E7ED}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{FC03C792-1E66-473C-8C55-19764AF0E7ED}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{FC03C792-1E66-473C-8C55-19764AF0E7ED}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{FC03C792-1E66-473C-8C55-19764AF0E7ED}.Release|Any CPU.Build.0 = Release|Any CPU
+		{0BC2BA33-C89D-46AA-9785-58BCDAB1AF35}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{0BC2BA33-C89D-46AA-9785-58BCDAB1AF35}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{0BC2BA33-C89D-46AA-9785-58BCDAB1AF35}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{0BC2BA33-C89D-46AA-9785-58BCDAB1AF35}.Release|Any CPU.Build.0 = Release|Any CPU
+		{F57627CA-CE8B-462F-9F13-06E11282E098}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{F57627CA-CE8B-462F-9F13-06E11282E098}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{F57627CA-CE8B-462F-9F13-06E11282E098}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{F57627CA-CE8B-462F-9F13-06E11282E098}.Release|Any CPU.Build.0 = Release|Any CPU
+		{D63A6571-C4C4-4A4C-BB5F-383C8E413199}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{D63A6571-C4C4-4A4C-BB5F-383C8E413199}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{D63A6571-C4C4-4A4C-BB5F-383C8E413199}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{D63A6571-C4C4-4A4C-BB5F-383C8E413199}.Release|Any CPU.Build.0 = Release|Any CPU
+		{50012D32-228C-46DC-897A-D5AAB192B462}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{50012D32-228C-46DC-897A-D5AAB192B462}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{50012D32-228C-46DC-897A-D5AAB192B462}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{50012D32-228C-46DC-897A-D5AAB192B462}.Release|Any CPU.Build.0 = Release|Any CPU
+		{D4045E68-942E-45EE-9839-440E919FCE8D}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{D4045E68-942E-45EE-9839-440E919FCE8D}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{D4045E68-942E-45EE-9839-440E919FCE8D}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{D4045E68-942E-45EE-9839-440E919FCE8D}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {342FA293-BEE1-42D2-A8AC-71FE38A763E5}
+	EndGlobalSection
+EndGlobal
